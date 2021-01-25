@@ -84,7 +84,6 @@ div{
   left:40%;
   top: 350px;
   content:url(../img/img1.png);
-
 }
 
 #pad7{
@@ -138,7 +137,7 @@ div{
 }
 
 #pad12:hover{
-  content:url(../img/img6 .png);
+  content:url(../img/img6.png);
 }
 
 /* FINE POSIZIONE PAD */
