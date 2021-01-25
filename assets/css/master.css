@@ -27,7 +27,8 @@ div{
   width:150px;
   background-color:white;
   position:absolute;
-  border:1px solid black;
+  border-radius: 10px;
+  content:url(../img/pattern.png);
 }
 
 /* FINE TAG DI SISTEMA */
@@ -39,9 +40,17 @@ div{
   top: 100px;
 }
 
+#pad1:hover{
+  content:url(../img/img1.png);
+}
+
 #pad2{
   left:40%;
   top: 100px;
+}
+
+#pad2:hover{
+  content:url(../img/img2.png);
 }
 
 #pad3{
@@ -49,9 +58,17 @@ div{
   top: 100px;
 }
 
+#pad3:hover{
+  content:url(../img/img3.png);
+}
+
 #pad4{
   left:64%;
   top: 100px;
+}
+
+#pad4:hover{
+  content:url(../img/img4.png);
 }
 
 #pad5{
@@ -59,9 +76,15 @@ div{
   top: 350px;
 }
 
+#pad5:hover{
+  content:url(../img/img6.png);
+}
+
 #pad6{
   left:40%;
   top: 350px;
+  content:url(../img/img1.png);
+
 }
 
 #pad7{
@@ -69,9 +92,17 @@ div{
   top: 350px;
 }
 
+#pad7:hover{
+  content:url(../img/img5.png);
+}
+
 #pad8{
   left:64%;
   top: 350px;
+}
+
+#pad8:hover{
+  content:url(../img/img2.png);
 }
 
 #pad9{
@@ -79,9 +110,17 @@ div{
   top: 600px;
 }
 
+#pad9:hover{
+  content:url(../img/img3.png);
+}
+
 #pad10{
   left:40%;
   top: 600px;
+}
+
+#pad10:hover{
+  content:url(../img/img4.png);
 }
 
 #pad11{
@@ -89,9 +128,17 @@ div{
   top: 600px;
 }
 
+#pad11:hover{
+  content:url(../img/img5.png);
+}
+
 #pad12{
   left:64%;
   top: 600px;
+}
+
+#pad12:hover{
+  content:url(../img/img6 .png);
 }
 
 /* FINE POSIZIONE PAD */
