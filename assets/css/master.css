@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color:lightblue;
+  position:relative;
+  font-family: 'Potta One', cursive;
+}
+
+/* TAG DI SISTEMA */
+
+h1{
+  text-align:center;
+  margin-top: 20px;
+  font-size: 70px;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  color: black;
+  margin-top: 45%;
+}
+
+div{
+  height:200px;
+  width:150px;
+  background-color:white;
+  position:absolute;
+  border:1px solid black;
+}
+
+/* FINE TAG DI SISTEMA */
+
+/* POSIZIONE DEI PAD */
+
+#pad1{
+  left:28%;
+  top: 100px;
+}
+
+#pad2{
+  left:40%;
+  top: 100px;
+}
+
+#pad3{
+  left:52%;
+  top: 100px;
+}
+
+#pad4{
+  left:64%;
+  top: 100px;
+}
+
+#pad5{
+  left:28%;
+  top: 350px;
+}
+
+#pad6{
+  left:40%;
+  top: 350px;
+}
+
+#pad7{
+  left:52%;
+  top: 350px;
+}
+
+#pad8{
+  left:64%;
+  top: 350px;
+}
+
+#pad9{
+  left:28%;
+  top: 600px;
+}
+
+#pad10{
+  left:40%;
+  top: 600px;
+}
+
+#pad11{
+  left:52%;
+  top: 600px;
+}
+
+#pad12{
+  left:64%;
+  top: 600px;
+}
+
+/* FINE POSIZIONE PAD */
