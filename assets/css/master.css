@@ -17,9 +17,19 @@ h1{
 }
 
 h3{
-  text-align: center;
   color: black;
-  margin-top: 45%;
+  position: absolute;
+  top: 900px;
+  left:45%;
+}
+
+h2{
+  font-size: 30px;
+  color: purple;
+  background-color:transparent;
+  position:absolute;
+  bottom: 5px;
+  display: none;
 }
 
 div{
@@ -28,116 +38,197 @@ div{
   background-color:white;
   position:absolute;
   border-radius: 10px;
-  content:url(../img/pattern.png);
+  background-image: url(../img/pattern.png);
+  background-size: cover;
+}
+
+#onlyshow{
+  display: block;
 }
 
 /* FINE TAG DI SISTEMA */
 
 /* POSIZIONE DEI PAD */
 
-#pad1{
+.pad1{
   left:28%;
   top: 100px;
 }
 
-#pad1:hover{
-  content:url(../img/img1.png);
+.pad1:hover{
+  background-image: url(../img/img1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad2{
+.pad1:hover .show{
+  display: block;
+}
+
+.pad2{
   left:40%;
   top: 100px;
 }
 
-#pad2:hover{
-  content:url(../img/img2.png);
+.pad2:hover{
+  background-image: url(../img/img2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad3{
+.pad2:hover .show{
+  display: block;
+  left:20px;
+}
+
+.pad3{
   left:52%;
   top: 100px;
 }
 
-#pad3:hover{
-  content:url(../img/img3.png);
+.pad3:hover{
+  background-image: url(../img/img3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad4{
+.pad3:hover .show{
+  display: block;
+  left:40px;
+}
+
+.pad4{
   left:64%;
   top: 100px;
 }
 
-#pad4:hover{
-  content:url(../img/img4.png);
+.pad4:hover{
+  background-image: url(../img/img4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad5{
+.pad4:hover .show{
+  display: block;
+}
+
+.pad5{
   left:28%;
   top: 350px;
 }
 
-#pad5:hover{
-  content:url(../img/img6.png);
+.pad5:hover{
+  background-image: url(../img/img6.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad6{
+.pad5:hover .show{
+  display: block;
+  left:15px;
+}
+
+.pad6{
   left:40%;
   top: 350px;
-  content:url(../img/img1.png);
+  background-image: url(../img/img1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad7{
+.pad7{
   left:52%;
   top: 350px;
 }
 
-#pad7:hover{
-  content:url(../img/img5.png);
+.pad7:hover{
+  background-image: url(../img/img5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad8{
+.pad7:hover .show{
+  display: block;
+  left:20px;
+}
+
+.pad8{
   left:64%;
   top: 350px;
 }
 
-#pad8:hover{
-  content:url(../img/img2.png);
+.pad8:hover{
+  background-image: url(../img/img2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad9{
+.pad8:hover .show{
+  display: block;
+  left:20px;
+}
+
+.pad9{
   left:28%;
   top: 600px;
 }
 
-#pad9:hover{
-  content:url(../img/img3.png);
+.pad9:hover{
+  background-image: url(../img/img3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad10{
+.pad9:hover .show{
+  display: block;
+  left:40px;
+}
+
+.pad10{
   left:40%;
   top: 600px;
 }
 
-#pad10:hover{
-  content:url(../img/img4.png);
+.pad10:hover{
+  background-image: url(../img/img4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad11{
+.pad10:hover .show{
+  display: block;
+}
+
+.pad11{
   left:52%;
   top: 600px;
 }
 
-#pad11:hover{
-  content:url(../img/img5.png);
+.pad11:hover{
+  background-image: url(../img/img5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#pad12{
+.pad11:hover .show{
+  display: block;
+  left:20px;
+}
+
+.pad12{
   left:64%;
   top: 600px;
 }
 
-#pad12:hover{
-  content:url(../img/img6.png);
+.pad12:hover{
+  background-image: url(../img/img6.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pad12:hover .show{
+  display: block;
+  left:15px;
 }
 
 /* FINE POSIZIONE PAD */
